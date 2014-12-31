@@ -1,0 +1,11 @@
+
+ README - tma-unix-runtime is the runtime support for the TMA time
+ 	series visualisation and analysis tool.
+
+This distribution consists of TCL, TK, BLT, Bwidget, tklib and tcllib
+at versions suitable for the TMA runtime. Note that older versions
+of BLT may crash when running tma.tcl.
+
+Installation: sudo make
+
+By default the binaries go into /var/opt/tma/{bin,lib} 
